@@ -33,6 +33,7 @@ def mars_news():
     # Time delay of 2 secs to make sure the browser loads
     time.sleep(2)
     # Scrape page into Soup
+
     html = browser.html
     # Create BeautifulSoup object; parsed with 'html.parser'
     soup = BeautifulSoup(html, 'html.parser')
